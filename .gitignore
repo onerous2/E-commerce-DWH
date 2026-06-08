@@ -1,0 +1,13 @@
+data/raw/*
+!data/raw/.gitkeep
+
+# Логи Airflow
+logs/*
+!logs/.gitkeep
+
+# Среда и кэш
+.env
+__pycache__/
+*.pyc
+.idea/
+.vscode/
